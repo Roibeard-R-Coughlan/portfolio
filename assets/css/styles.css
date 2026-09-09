@@ -144,11 +144,12 @@ h1 em { color: #426965; font-weight: 400; }
   color: #142427;
 }
 .home-hero .button:hover,
-.home-hero .button:focus-visible {
-  border-color: rgba(199, 161, 106, .82);
-  background: #f4f2eb;
+.home-hero .button:focus-visible,
+.home-hero .button:active {
+  border-color: #f4f2eb;
+  background: #C7A16A;
   color: #142427;
-  box-shadow: 0 5px 18px rgba(199, 161, 106, .18);
+  box-shadow: 0 5px 18px rgba(199, 161, 106, .22);
 }
 .home-hero .text-link { color: #f4f3ed; }
 .home-hero .hero-availability {
